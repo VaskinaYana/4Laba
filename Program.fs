@@ -59,7 +59,7 @@ let main argv =
     printTree "" root
 
     let newRoot = mapTree (fun x -> replaceMinDigit x 9) root
-    printfn "\nНовое дерево (минимальная цифра заменена на 9):"
+    printfn "\nНовое дерево (минимальная цифра заменена наjjn 9):"
     printTree "" newRoot
     
     0
